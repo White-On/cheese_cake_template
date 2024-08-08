@@ -1,19 +1,11 @@
 {
     "project_name": "Project Name",
-    "project_description" : "Project Description",
-    "author_name": "Author(s) Name(s)",
+    "project_description" : "Project Description 📝",
+    "author_name": "Author(s) Name(s) ✒️ 📚",
+    "_project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
     "__prompts__":{
-        "project_name": {
-            "message": "What is the name of the project?",
-            "default": "🌟 Project Name 🌟"
-        },
-        "project_description": {
-            "message": "A little description of the project",
-            "default": "Project Description 📝"
-        },
-        "author_name": {
-            "message": "who will work on this project?",
-            "default": "Author(s) Name(s) ✒️ 📚"
-        }
+        "project_name":"What is the name of the project?",
+        "project_description":"A little description of the project",
+        "author_name":"Who will work on this project?"
     }
 }
