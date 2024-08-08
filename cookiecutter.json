@@ -1,5 +1,19 @@
 {
     "project_name": "Project Name",
     "project_description" : "Project Description",
-    "author_name": "Author(s) Name(s)"
+    "author_name": "Author(s) Name(s)",
+    "__prompts__":{
+        "project_name": {
+            "message": "What is the name of the project?",
+            "default": "🌟 Project Name 🌟"
+        },
+        "project_description": {
+            "message": "A little description of the project",
+            "default": "Project Description 📝"
+        },
+        "author_name": {
+            "message": "who will work on this project?",
+            "default": "Author(s) Name(s) ✒️ 📚"
+        }
+    }
 }

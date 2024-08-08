@@ -1,6 +1,6 @@
 name: learn-github-actions
 
-run-name: ${{ github.actor }} is running ${{ github.workflow }} on ${{ github.repository }} for the commit ${{ github.sha }}
+run-name: {% raw %}${{ github.actor }} is running ${{ github.workflow }} on ${{ github.repository }} for the commit ${{ github.sha }}{% endraw %}
 
 on:
   push:
