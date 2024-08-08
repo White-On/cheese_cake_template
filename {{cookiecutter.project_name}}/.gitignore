@@ -1,0 +1,10 @@
+.venv/
+*.pyc 
+*__pycache__*
+*.log
+*.pth
+*.csv
+*.zip
+.env/
+ssh_keys
+ssh_keys.pub
