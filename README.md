@@ -13,5 +13,5 @@ This is a template for a simple python projects
 
 
 ```bash
-nothing for now
+cookiecutter https://github.com/White-On/cheese_cake_template.git
 ```
